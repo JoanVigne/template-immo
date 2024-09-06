@@ -1,0 +1,14 @@
+.banner {
+  background-position: center bottom;
+  height: 600px;
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+  .banner {
+    height: 300px;
+  }
+}
